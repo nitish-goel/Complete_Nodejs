@@ -29,7 +29,7 @@ const personSchema = new mongoose.Schema({
     }
 })
 
-// Create Person model                      👇:to define schema for collection/model  
+// Create Person model                      👇:to define schema for collection/model's document.
 const Person = mongoose.model('Person', personSchema);
                              //  ^--: To create Person collection/model 
 
