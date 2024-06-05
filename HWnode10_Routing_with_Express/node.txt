@@ -1,3 +1,5 @@
 #Parameterized api call : If someone told us to give a list of people who are only waiters.
                           Then we create an parameterized endpoint/api. exp: /person/waiter , /person/chef , /person/manager etc
 
+
+# Express-Router : it help to reduce the code complexity and make code readable by creating sperate file for routes. 
