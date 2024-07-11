@@ -26,8 +26,17 @@ const personSchema = new mongoose.Schema({
     salary:{
         type : Number,
         required : true
+    },
+    username:{
+        type: String,
+        required: true,
+        unique: true
+    },
+    password:{
+        type: String,
+        required: true
     }
-})
+});
 
 // Create Person model                      👇:to define schema for collection/model's document.
 const Person = mongoose.model('Person', personSchema);
